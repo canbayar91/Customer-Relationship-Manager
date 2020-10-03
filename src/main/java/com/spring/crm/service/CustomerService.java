@@ -1,4 +1,4 @@
-package com.spring.mvc.service;
+package com.spring.crm.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.spring.mvc.dao.CustomerDAO;
-import com.spring.mvc.entity.Customer;
+import com.spring.crm.dao.CustomerDAO;
+import com.spring.crm.entity.Customer;
 
 @Service
 public class CustomerService {

@@ -1,4 +1,4 @@
-package com.spring.mvc.aspect;
+package com.spring.crm.aspect;
 
 import java.util.logging.Logger;
 

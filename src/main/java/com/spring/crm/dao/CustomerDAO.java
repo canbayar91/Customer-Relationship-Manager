@@ -1,4 +1,4 @@
-package com.spring.mvc.dao;
+package com.spring.crm.dao;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.spring.mvc.entity.Customer;
+import com.spring.crm.entity.Customer;
 
 @Repository
 public class CustomerDAO {
