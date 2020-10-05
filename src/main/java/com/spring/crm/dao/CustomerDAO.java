@@ -35,7 +35,7 @@ public class CustomerDAO {
 
 	public void deleteCustomer(int id) {
 		Session session = sessionFactory.getCurrentSession();
-		Query<?> query = session.createQuery("delete from customer where id=:customerId");
+		Query<?> query = session.createQuery("delete from Customer where id=:customerId");
 		query.setParameter("customerId", id);
 		query.executeUpdate();
 	}
